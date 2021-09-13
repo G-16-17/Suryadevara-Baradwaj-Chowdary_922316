@@ -17,7 +17,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @RestController
-@RequestMapping("/movies")
 public class MovieController {
 
 private static final Logger LOGGER = LoggerFactory.getLogger(MovieController.class);
