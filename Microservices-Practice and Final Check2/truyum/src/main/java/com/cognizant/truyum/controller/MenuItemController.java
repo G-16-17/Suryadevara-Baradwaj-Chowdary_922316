@@ -16,7 +16,6 @@ import com.cognizant.truyum.model.MenuItem;
 import com.cognizant.truyum.service.MenuItemService;
 
 @RestController
-@RequestMapping("/menu-items")
 public class MenuItemController {
 	
 	private static final Logger LOGGER = LoggerFactory.getLogger(MenuItemController.class);
